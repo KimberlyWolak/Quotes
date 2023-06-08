@@ -1,20 +1,14 @@
-import { Controller, Post, Get} from '@nestjs/common';
+import { Controller, Post, Get, Body, Logger} from '@nestjs/common';
 import { QuotesService } from './quotes.service';
 
+//Calling Functions
 @Controller('quotes')
 export class QuotesController {
-    constructor(private readonly quotesService: QuotesService){}
-    
-  @Post()
-  addQuote(): any {
-      const quote = this.quotesService.insertQuote(null,null,null);
-      return quote;
-  }
+  constructor(private readonly quotesService: QuotesService){}
   
-  //TESTING - DELETE
   @Get()
-  getHello(): string {
-    return this.quotesService.getHello();
+  getAllQuotes(): any{
+      this.quotesService.getQuotes();
+      return this.quotesService.generateRandomQuote();
   }
-  
 }
