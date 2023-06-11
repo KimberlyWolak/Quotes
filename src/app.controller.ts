@@ -13,6 +13,6 @@ export class AppController {
 
   @Get()
   redirect(@Res() res) {
-    return res.redirect('/quotes');
+    return this.appService.redirectToQuotes(res);
   }
 }
