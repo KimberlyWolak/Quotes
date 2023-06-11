@@ -11,7 +11,7 @@ import { Quote } from './quote.entity';
 */
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Quote])],
+  imports: [TypeOrmModule.forFeature([Quote])], //import quote entity
   controllers: [QuotesController],  //handle requests
   providers: [QuoteService], //handle the request data
 })
