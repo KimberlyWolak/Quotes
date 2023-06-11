@@ -81,6 +81,14 @@
     "yarn add @nestjs/typeorm typeorm sqlite": {
       "name": "yarn add @nestjs/typeorm typeorm sqlite",
       "command": "yarn add @nestjs/typeorm typeorm sqlite"
+    },
+    "npm install sqlite3 --save": {
+      "name": "npm install sqlite3 --save",
+      "command": "npm install sqlite3 --save"
+    },
+    "nest g module quote": {
+      "name": "nest g module quote",
+      "command": "nest g module quote"
     }
   }
 }
