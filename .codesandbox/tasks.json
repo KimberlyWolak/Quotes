@@ -89,6 +89,10 @@
     "nest g module quote": {
       "name": "nest g module quote",
       "command": "nest g module quote"
+    },
+    "n-test-service": {
+      "name": "n-test-service",
+      "command": "n-test-service"
     }
   }
 }
