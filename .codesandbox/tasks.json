@@ -1,0 +1,94 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "prebuild": {
+      "name": "prebuild",
+      "command": "yarn prebuild",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "format",
+      "command": "yarn format",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "start:dev": {
+      "name": "start:dev",
+      "command": "yarn start:dev",
+      "runAtStart": false
+    },
+    "start:debug": {
+      "name": "start:debug",
+      "command": "yarn start:debug",
+      "runAtStart": false
+    },
+    "start:prod": {
+      "name": "start:prod",
+      "command": "yarn start:prod",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "test:watch": {
+      "name": "test:watch",
+      "command": "yarn test:watch",
+      "runAtStart": false
+    },
+    "test:cov": {
+      "name": "test:cov",
+      "command": "yarn test:cov",
+      "runAtStart": false
+    },
+    "test:debug": {
+      "name": "test:debug",
+      "command": "yarn test:debug",
+      "runAtStart": false
+    },
+    "test:e2e": {
+      "name": "test:e2e",
+      "command": "yarn test:e2e",
+      "runAtStart": false
+    },
+    "add": {
+      "name": "add",
+      "command": "add"
+    },
+    "yarn add @nestjs/typeorm typeorm sqlite": {
+      "name": "yarn add @nestjs/typeorm typeorm sqlite",
+      "command": "yarn add @nestjs/typeorm typeorm sqlite"
+    },
+    "npm install sqlite3 --save": {
+      "name": "npm install sqlite3 --save",
+      "command": "npm install sqlite3 --save"
+    },
+    "nest g module quote": {
+      "name": "nest g module quote",
+      "command": "nest g module quote"
+    }
+  }
+}
