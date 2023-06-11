@@ -13,6 +13,8 @@ The [NestJS First Steps](https://docs.nestjs.com/first-steps) documents are a gr
 
 ## What We Expect From You
 1. Create an application that creates and uses a RESTful API to retrieve and display a random quote from the given quotes [dataset](src/data/office_quotes.json). This application does not need to be deployed or hosted anywhere- just something you can run locally.
+[To generate a new quote hit the refresh button]
+
 2. Add tests to your newly created application.
 3. Add any additional feature of your choice.
 4. Update the README with any information you want to include that will help us understand and run your project.
